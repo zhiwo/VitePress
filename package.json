@@ -1,0 +1,28 @@
+{
+  "name": "com.vite.press",
+  "version": "1.0.0",
+  "description": "技术总结",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxdeer/VitePress.git"
+  },
+  "keywords": [
+    "fir1212552"
+  ],
+  "author": "zxdeer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zxdeer/VitePress/issues"
+  },
+  "homepage": "https://github.com/zxdeer/VitePress#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.47",
+    "vue": "^3.2.47"
+  }
+}

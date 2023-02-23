@@ -16,12 +16,16 @@ export default defineConfig({
         //头部导航
         nav:[
             {text: 'Guide', link: '/guide/what-is-vitepress', activeMatch: '/guide/'},
-            {text:'Config',link:'/config/introduction',activeMatch:'/config/'}
+            {text:'Config',link:'/config/introduction',activeMatch:'/config/'},
+            {text:'Program',link:'/program/vue',activeMatch:'/program/'},
+            {text:'Tools',link:'/tools/git',activeMatch:'/tools/'}
         ],
         //左侧导航
         sidebar:{
             '/guide/': sidebarGuide(),
-            '/config/': sidebarConfig()
+            '/config/': sidebarConfig(),
+            '/program/':sidebarProgram(),
+            '/tools/':sidebarTools(),
         },
         editLink: {
             pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
@@ -112,4 +116,31 @@ function sidebarGuide() {
         ]
       }
     ]
+  }
+  /**
+   * 编程
+   */
+  function sidebarProgram(){
+     return [{
+      text:'Program',
+      items:[
+        { text:'Vue',link:'/program/vue' },
+        {text:'Javascript',link:'/program/Javascript'},
+        {text:'Css',link:'/program/css'}
+      ]
+     }]
+  }
+  /**
+   * 工具命令
+   * @returns 
+   */
+  function sidebarTools(){
+    return [{
+      text:'Tools',
+      items:[
+        {text:'Git',link:'/tools/git'},
+        {text:'Docker',link:'/tools/docker'}
+      ]
+     }]
+
   }

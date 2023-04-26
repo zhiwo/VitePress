@@ -97,11 +97,12 @@ function sidebarGuide() {
   function sidebarTools(){
     return [{
       text:'Tools',
-      collapsed:true,
+      collapsed:false,
       items:[
-        {text:'Git',link:'/tools/git'},
-        {text:'Docker',link:'/tools/docker'},
-        {text:'windows命令',link:'/tools/window'}
+        {text:'Git',link:'/tools/Git'},
+        {text:'Docker',link:'/tools/Docker'},
+        {text:'Windows',link:'/tools/Window'},
+        {text:'MySql',link:'/tools/MySql'}
       ]
      }]
   }

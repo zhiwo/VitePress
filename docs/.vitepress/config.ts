@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 export default defineConfig({
+    base: '/VitePress/',
     lang :'zh-CN',
     title:'巧克力爱柚子',
     ignoreDeadLinks: true,

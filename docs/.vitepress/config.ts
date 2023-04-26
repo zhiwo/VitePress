@@ -20,7 +20,7 @@ export default defineConfig({
             {text: 'Guide', link: '/guide/what-is-vitepress', activeMatch: '/guide/'},
             {text:'Config',link:'/config/introduction',activeMatch:'/config/'},
             {text:'Program',link:'/program/vue',activeMatch:'/program/'},
-            {text:'Tools',link:'/tools/git',activeMatch:'/tools/'}
+            {text:'Tools',link:'/tools/Git',activeMatch:'/tools/'}
         ],
         //左侧导航
         sidebar:{

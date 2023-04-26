@@ -20,7 +20,7 @@ export default defineConfig({
             {text: 'Guide', link: '/guide/what-is-vitepress', activeMatch: '/guide/'},
             {text:'Config',link:'/config/introduction',activeMatch:'/config/'},
             {text:'Program',link:'/program/vue',activeMatch:'/program/'},
-            {text:'Tools',link:'/tools/Git',activeMatch:'/tools/'}
+            {text:'Tools',link:'/tools/git',activeMatch:'/tools/'}
         ],
         //左侧导航
         sidebar:{
@@ -99,10 +99,10 @@ function sidebarGuide() {
       text:'Tools',
       collapsed:false,
       items:[
-        {text:'Git',link:'/tools/Git'},
-        {text:'Docker',link:'/tools/Docker'},
+        {text:'Git',link:'/tools/git'},
+        {text:'Docker',link:'/tools/docker'},
         {text:'Windows',link:'/tools/Window'},
-        {text:'MySql',link:'/tools/MySql'}
+        {text:'MySql',link:'/tools/mysql'}
       ]
      }]
   }

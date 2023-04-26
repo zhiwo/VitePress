@@ -101,7 +101,7 @@ function sidebarGuide() {
       items:[
         {text:'Git',link:'/tools/git'},
         {text:'Docker',link:'/tools/docker'},
-        {text:'Windows',link:'/tools/Window'},
+        {text:'Windows',link:'/tools/window'},
         {text:'MySql',link:'/tools/mysql'}
       ]
      }]

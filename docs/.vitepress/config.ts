@@ -17,10 +17,10 @@ export default defineConfig({
     themeConfig:{
         //头部导航
         nav:[
-            {text: 'Guide', link: '/guide/what-is-vitepress', activeMatch: '/guide/'},
-            {text:'Config',link:'/config/introduction',activeMatch:'/config/'},
-            {text:'Program',link:'/program/vue',activeMatch:'/program/'},
-            {text:'Tools',link:'/tools/git',activeMatch:'/tools/'}
+            {text: 'Guide2', link: '/guide/what-is-vitepress', activeMatch: '/guide/'},
+            {text:'Config2',link:'/config/introduction',activeMatch:'/config/'},
+            {text:'Program2',link:'/program/vue',activeMatch:'/program/'},
+            {text:'Tools2',link:'/tools/git',activeMatch:'/tools/'}
         ],
         //左侧导航
         sidebar:{
